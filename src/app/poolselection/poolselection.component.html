@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <div>
+    <h3>
+      {{ title }}
+    </h3>
+    <h4>Custom Theme</h4>
+    <a href="https://github.com/NileshPatel17/ng-multiselect-dropdown"
+      >Github Code</a
+    >
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        
+        <ng-multiselect-dropdown
+          name="country"
+          [placeholder]="'Select Pool'"
+          [settings]="dropdownSettings"
+          [data]="countries"
+          [(ngModel)]="selCountries">
+        </ng-multiselect-dropdown>
+      </div>
+    </div>
+  </div>
+</div>
